@@ -78,7 +78,7 @@ for(var key in ownResume){
 
 
 // ! using for of loop
-for(var a of ownResume)
+for(var a of Object.values(ownResume))
 {
     console.log(a);
 }
